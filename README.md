@@ -10,4 +10,4 @@ This code follows these instructions:
 2. If the random value of dice thrown is satisfying a condition ( say <= 4 or >= 3) then we mode if forward which is +1 else backward -1
 3. This is iterated over and over again until the loop reaches its maximum limit.
 4. Plotting the final positions of the is the graph generated which is also called as "2D Random Walk"
-![]https://github.com/RaviTejaGanti/2D-Random-Walk-Using-R/blob/main/Rplot02.png
+![alt text](https://github.com/RaviTejaGanti/2D-Random-Walk-Using-R/blob/main/Rplot02.png)
