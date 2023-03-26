@@ -28,10 +28,7 @@ for (i in 2:n){
   df2$result.y <- Step
   df2$position.y[i] <- df2$position.y[i-1] + Step
   df2$Step[i] <- i-1
-  i < i+1
 }
-#df2 <- df[complete.cases(df2),]
-
 positions <- data.frame(df2$position.x,df2$position.y)
 colnames(positions) <- c("X","Y")
 
