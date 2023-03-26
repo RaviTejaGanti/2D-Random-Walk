@@ -35,3 +35,4 @@ colnames(positions) <- c("X","Y")
 random_2d <- ggplot(positions, aes(x = X, y = Y),type=b,pch=19) + geom_path()+ theme_minimal()
 random_2d
 
+random_2d + transition_reveal(df2$Step)
